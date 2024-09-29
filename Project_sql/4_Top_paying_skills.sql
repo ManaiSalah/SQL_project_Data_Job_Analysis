@@ -18,7 +18,7 @@ AND salary_year_avg IS NOT NULL
 AND job_work_from_home=TRUE
 GROUP BY skills
 ORDER BY Average_salary DESC
-LIMIT 25
+LIMIT 5
 
 /*
 Key Observations:
